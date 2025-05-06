@@ -5,12 +5,18 @@ test_cases:
 - response: '76304620E2700'
   expected_values:
     NISSAN_TP_RR: 0
+- response: 76304620E277A
+  expected_values:
+    NISSAN_TP_RR: 210.29011
 - response: 76304620E277B
   expected_values:
     NISSAN_TP_RR: 212.0138
 - response: 76304620E277C
   expected_values:
     NISSAN_TP_RR: 213.73749
+- response: 76304620E277D
+  expected_values:
+    NISSAN_TP_RR: 215.46118
 - response: 76304620E277E
   expected_values:
     NISSAN_TP_RR: 217.18486
@@ -50,6 +56,9 @@ test_cases:
 - response: 76304620E278A
   expected_values:
     NISSAN_TP_RR: 237.86914
+- response: 76304620E278B
+  expected_values:
+    NISSAN_TP_RR: 239.59283
 - response: 76304620E278C
   expected_values:
     NISSAN_TP_RR: 241.31652
