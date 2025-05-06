@@ -32,3 +32,33 @@ test_cases:
 - response: 76306620E0100128E
   expected_values:
     NISSAN_ODO: 4750
+- response: 76306620E0100128F
+  expected_values:
+    NISSAN_ODO: 4751
+- response: '76306620E01001290'
+  expected_values:
+    NISSAN_ODO: 4752
+- response: '76306620E01001291'
+  expected_values:
+    NISSAN_ODO: 4753
+- response: '76306620E01001292'
+  expected_values:
+    NISSAN_ODO: 4754
+- response: '76306620E01001293'
+  expected_values:
+    NISSAN_ODO: 4755
+- response: '76306620E01001294'
+  expected_values:
+    NISSAN_ODO: 4756
+- response: '76306620E01001295'
+  expected_values:
+    NISSAN_ODO: 4757
+- response: 76306620E0100129B
+  expected_values:
+    NISSAN_ODO: 4763
+- response: 76306620E0100129C
+  expected_values:
+    NISSAN_ODO: 4764
+- response: 76306620E0100129D
+  expected_values:
+    NISSAN_ODO: 4765
