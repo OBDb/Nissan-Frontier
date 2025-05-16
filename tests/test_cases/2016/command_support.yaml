@@ -43,3 +43,9 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
   - 014D:MIL_TIME
   - 0151:FUEL_TYP
+unsupported_commands_by_ecu:
+  743:
+  - 743.763.220E25
+  - 743.763.220E26
+  - 743.763.220E27
+  - 743.763.220E2E
