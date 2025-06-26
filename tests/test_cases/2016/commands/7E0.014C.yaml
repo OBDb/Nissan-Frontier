@@ -1,8 +1,8 @@
 command_id: 7E0.014C
 test_cases:
-- response: 7E803414C0B
-  expected_values:
+- expected_values:
     TAC_PCT: 4.31373
-- response: 7E803414CC1
-  expected_values:
+  response: 7E803414C0B
+- expected_values:
     TAC_PCT: 75.68627
+  response: 7E803414CC1
