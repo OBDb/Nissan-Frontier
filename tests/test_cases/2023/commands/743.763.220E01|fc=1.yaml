@@ -1,11 +1,11 @@
 command_id: 743.763.220E01|fc=1
 test_cases:
 - expected_values:
-    NISSAN_ODO: 895
+    FRONTIER_ODO: 895.0
   response: 76306620E0100037F
 - expected_values:
-    NISSAN_ODO: 943
+    FRONTIER_ODO: 943.0
   response: 76306620E010003AF
 - expected_values:
-    NISSAN_ODO: 3586
+    FRONTIER_ODO: 3586.0
   response: 76306620E01000E02
