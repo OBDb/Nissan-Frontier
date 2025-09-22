@@ -4,5 +4,5 @@ test_cases:
     NISSAN_TP_RL: 0
   response: '76304620E2800'
 - expected_values:
-    NISSAN_TP_RL: 263.72448
-  response: '76304620E2899'
+    NISSAN_TP_RL: 268.89555
+  response: 76304620E289C
