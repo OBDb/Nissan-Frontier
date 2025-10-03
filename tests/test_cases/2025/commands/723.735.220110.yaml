@@ -1,0 +1,14 @@
+command_id: 723.735.220110
+test_cases:
+- expected_values:
+    NISSAN_STEER_ANGLE: 3.8
+  response: '735056201100026'
+- expected_values:
+    NISSAN_STEER_ANGLE: 152.2
+  response: 7350562011005F2
+- expected_values:
+    NISSAN_STEER_ANGLE: -459.7
+  response: 73505620110EE0B
+- expected_values:
+    NISSAN_STEER_ANGLE: -18.3
+  response: 73505620110FF49
