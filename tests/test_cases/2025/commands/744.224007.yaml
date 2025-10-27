@@ -1,5 +1,29 @@
 command_id: '744.224007'
 test_cases:
 - expected_values:
+    NISSAN_AC_STATUS: 11
+  response: 764076240070BFFFFFF
+- expected_values:
+    NISSAN_AC_STATUS: 75
+  response: 764076240074BFFFFFF
+- expected_values:
     NISSAN_AC_STATUS: 91
   response: 764076240075BFFFFFF
+- expected_values:
+    NISSAN_AC_STATUS: 107
+  response: 764076240076BFDFFFF
+- expected_values:
+    NISSAN_AC_STATUS: 123
+  response: 764076240077BFDFFFF
+- expected_values:
+    NISSAN_AC_STATUS: 203
+  response: 76407624007CBFFFFFF
+- expected_values:
+    NISSAN_AC_STATUS: 219
+  response: 76407624007DBFFFFFF
+- expected_values:
+    NISSAN_AC_STATUS: 235
+  response: 76407624007EBFDFFFF
+- expected_values:
+    NISSAN_AC_STATUS: 251
+  response: 76407624007FBFDFFFF
