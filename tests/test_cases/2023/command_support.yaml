@@ -97,6 +97,8 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "743":
   - 743.763.220E2E|fc=1:NISSAN_RANGE
+  "744":
+  - 744.22F467:NISSAN_ECT
   "758":
   - 758.778.220210:NISSAN_TPW_RL
   "797":
