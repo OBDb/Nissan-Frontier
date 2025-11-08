@@ -100,6 +100,7 @@ unsupported_commands_by_ecu:
   "744":
   - 744.22F467:NISSAN_ECT
   "758":
+  - 758.778.220201:NISSAN_TP_FL
   - 758.778.220210:NISSAN_TPW_RL
   "797":
   - 797.79A.221103|fc=1:NISSAN_VPWR
