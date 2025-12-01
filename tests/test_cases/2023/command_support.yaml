@@ -2,6 +2,7 @@ model_year: 2023
 supported_commands_by_ecu:
   "723":
   - 723.735.220101:NISSAN_YAW_RATE
+  - 723.735.220107:NISSAN_RADAR_DISTANCE
   "743":
   - 743.763.220E01|fc=1:NISSAN_ODO
   - 743.763.220E25|fc=1:NISSAN_TP_FR_V2
