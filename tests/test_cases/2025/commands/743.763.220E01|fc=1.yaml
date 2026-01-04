@@ -10,5 +10,5 @@ test_cases:
     NISSAN_ODO: 754
   response: 76306620E010002F2
 - expected_values:
-    NISSAN_ODO: 781
-  response: 76306620E0100030D
+    NISSAN_ODO: 1214
+  response: 76306620E010004BE
