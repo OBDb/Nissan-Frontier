@@ -1,6 +1,10 @@
+references:
+  - "https://en.wikipedia.org/wiki/Nissan_Frontier_(North_America)"
+  - "https://en.wikipedia.org/wiki/Nissan_Navara"
+
 generations:
   - name: "First Generation (D22)"
-    start_year: 1998
+    start_year: 1997
     end_year: 2004
     description: "The original Nissan Frontier (replacing the Nissan Hardbody in North America) was introduced as a compact pickup truck available in Regular and King Cab configurations, with a Crew Cab variant added in 2000. Power initially came from a 2.4L four-cylinder engine producing 143 horsepower, with a 3.3L V6 option generating 170 horsepower added in 1999. Transmission choices included 5-speed manual and 4-speed automatic, with both rear-wheel and four-wheel drive available. The design featured rugged, angular styling with flared fenders resembling those of the larger Titan pickup. Notable variants included the Desert Runner offering the look and raised suspension of the 4x4 with rear-wheel drive, and the supercharged SC model introduced in 2001 boosting V6 output to 210 horsepower. The interior was basic but functional, focusing on durability rather than luxury, though higher trims offered amenities including air conditioning, power accessories, and upgraded audio systems. The first generation established the Frontier's reputation for durability and off-road capability at a value price point, competing primarily with the Toyota Tacoma and Ford Ranger in the compact truck segment."
 
