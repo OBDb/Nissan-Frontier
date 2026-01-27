@@ -1,0 +1,5 @@
+command_id: '744.224007'
+test_cases:
+- expected_values:
+    NISSAN_AC_STATUS: 155
+  response: 764076240079BFFFFFF
