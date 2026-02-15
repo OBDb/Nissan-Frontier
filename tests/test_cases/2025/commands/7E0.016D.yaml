@@ -49,6 +49,54 @@ test_cases:
     7E8100D416D03027102
     7E82169000000000000
 - expected_values:
+    FRP_A: 9630
+    FRP_A_CMD: 9990
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D0303E703
+    7E821C3000000000000
+- expected_values:
+    FRP_A: 10040
+    FRP_A_CMD: 9990
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D0303E703
+    7E821EC000000000000
+- expected_values:
+    FRP_A: 12570
+    FRP_A_CMD: 12650
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D0304F104
+    7E821E9000000000000
+- expected_values:
     FRP_A: 14440
     FRP_A_CMD: 14390
     FRP_A_CMD_SUP: 1
