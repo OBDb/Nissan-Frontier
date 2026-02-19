@@ -4,5 +4,5 @@ test_cases:
     NISSAN_AAT: -1
   response: '7640462400827'
 - expected_values:
-    NISSAN_AAT: 20
-  response: 764046240083C
+    NISSAN_AAT: 25
+  response: '7640462400841'
