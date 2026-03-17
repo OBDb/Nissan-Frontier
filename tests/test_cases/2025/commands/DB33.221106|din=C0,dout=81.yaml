@@ -1,0 +1,17 @@
+command_id: DB33.221106|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_IAT: 18
+  response: '7E80462110644'
+- expected_values:
+    NI_IAT: 19
+  response: '7E80462110645'
+- expected_values:
+    NI_IAT: 20
+  response: '7E80462110646'
+- expected_values:
+    NI_IAT: 21
+  response: '7E80462110647'
+- expected_values:
+    NI_IAT: 24
+  response: 7E8046211064A
