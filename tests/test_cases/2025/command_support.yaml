@@ -102,6 +102,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0145:TP_R
   - 0147:TP_B
+  - 7E1.7E9.0105
 unsupported_commands_by_ecu:
   "743":
   - 743.763.220E2E|fc=1:NISSAN_RANGE
@@ -134,4 +135,3 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.221266
   "7E1":
   - 7E1.7E9.0104
-  - 7E1.7E9.0105
