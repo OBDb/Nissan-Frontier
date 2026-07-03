@@ -119,9 +119,17 @@ supported_commands_by_ecu:
   - 0145:TP_R
   - 0147:TP_B
 unsupported_commands_by_ecu:
+  "700":
+  - 700.708.221002
+  - 700.708.22107B
+  "701":
+  - 701.709.221628
   "743":
   - 743.220E2E
   - 743.763.220E2E|fc=1:NISSAN_RANGE
+  "750":
+  - 750.758.2116
+  - 750.758.2130
   "758":
   - 758.778.220201:NISSAN_TP_FL
   - 758.778.220202:NISSAN_TP_FR
@@ -166,6 +174,18 @@ unsupported_commands_by_ecu:
   "79B":
   - 79B.7BB.2101|fc=1:NISSAN_HVBAT_CAP,NISSAN_HVBAT_SOC,NISSAN_HVBAT_VOLT
   - 79B.7BB.2161|fc=1:NISSAN_HVBAT_SOH
+  "7B0":
+  - 7B0.7B8.2103
+  - 7B0.7B8.2105
+  - 7B0.7B8.2106
+  - 7B0.7B8.2121
+  - 7B0.7B8.213D
+  - 7B0.7B8.2142
+  - 7B0.7B8.2147
+  - 7B0.7B8.215F
+  - 7B0.7B8.21A1
+  - 7B0.7B8.21A6
+  - 7B0.7B8.21BE
   "7E0":
   - 7E0.221186
   - 7E0.221266
