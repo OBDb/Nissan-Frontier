@@ -1,8 +1,0 @@
-command_id: '744.224007'
-test_cases:
-- expected_values:
-    NISSAN_AC_STATUS: 163
-  response: 76407624007A37FF9FF
-- expected_values:
-    NISSAN_AC_STATUS: 179
-  response: 76407624007B37FF9FF
