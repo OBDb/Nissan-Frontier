@@ -1,0 +1,14 @@
+command_id: 743.763.220E01|fc=1,f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_ODO: 8950
+  response: 76306620E0100037F
+- expected_values:
+    FRONTIER_ODO: 15350
+  response: 76306620E010005FF
+- expected_values:
+    FRONTIER_ODO: 15360
+  response: '76306620E01000600'
+- expected_values:
+    FRONTIER_ODO: 35860
+  response: 76306620E01000E02

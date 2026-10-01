@@ -1,4 +1,124 @@
 { "commands": [
-
+{ "hdr": "707", "rax": "727", "cmd": {"22": "0103"}, "freq": 0.25, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_TURN_SIGNAL_RIGHT", "path": "Control", "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Right turn signal"},
+    {"id": "FRONTIER_TURN_SIGNAL_LEFT",  "path": "Control", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Left turn signal"}
+  ]},
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0101"}, "freq": 0.25, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_YAW_RATE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Yaw rate"}
+  ]},
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0107"}, "freq": 0.25, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_RADAR_DISTANCE", "path": "Cruise control", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "meters" }, "name": "Radar distance"}
+  ]},
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0108"}, "freq": 0.25, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_RADAR_SPEED", "path": "Cruise control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "metersPerSecond" }, "name": "Relative speed"}
+  ]},
+{ "hdr": "723", "rax": "735", "cmd": {"22": "0110"}, "freq": 0.25, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Negative values are clockwise, positive values are counter-clockwise."}
+  ]},
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "filter": { "from": 2022 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "FRONTIER_APP", "path": "Control", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
+  ]},
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "filter": { "from": 2022 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "FRONTIER_BRAKE_MC_P", "path": "Control", "fmt": { "len": 16, "max": 42666.015, "div": 1.536, "unit": "unknown" }, "name": "Brake master cylinder pressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"21": "01"}, "freq": 30, "filter": { "from": 2022 },
+  "signals": [
+    {"id": "FRONTIER_MTR_ODO", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, meter group 1", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 30, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_ODO", "path": "Trips", "fmt": { "len": 24, "max": 167772150, "mul": 10, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "744", "rax": "764", "dbg": true, "cmd": {"21": "10"}, "freq": 5, "filter": { "from": 2022 },
+  "signals": [
+    {"id": "FRONTIER_HVAC_AAT",      "path": "Climate", "fmt": {            "len": 8,  "max": 215,   "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature, climate module"},
+    {"id": "FRONTIER_HVAC_CABIN_T",  "path": "Climate", "fmt": {"bix": 8,   "len": 8,  "max": 215,   "min": -40, "add": -40, "unit": "celsius" }, "name": "Cabin temperature"},
+    {"id": "FRONTIER_HVAC_EVAP_T",   "path": "Climate", "fmt": {"bix": 16,  "len": 8,  "max": 215,   "min": -40, "add": -40, "unit": "celsius" }, "name": "Evaporator temperature"},
+    {"id": "FRONTIER_HVAC_SUNLOAD",  "path": "Climate", "fmt": {"bix": 24,  "len": 8,  "max": 255,                           "unit": "scalar"  }, "name": "Sun load"},
+    {"id": "FRONTIER_HVAC_AC_ON",    "path": "Climate", "fmt": {"bix": 80,  "len": 1,  "max": 1,                             "unit": "offon"   }, "name": "Air conditioning on"},
+    {"id": "FRONTIER_HVAC_FAN_ON",   "path": "Climate", "fmt": {"bix": 88,  "len": 1,  "max": 1,                             "unit": "offon"   }, "name": "Blower on"},
+    {"id": "FRONTIER_HVAC_BLOWER_V", "path": "Climate", "fmt": {"bix": 89,  "len": 7,  "max": 127,                           "unit": "volts"   }, "name": "Blower voltage"},
+    {"id": "FRONTIER_AC_COMP_RPM",   "path": "Climate", "fmt": {"bix": 168, "len": 16, "max": 65535,                         "unit": "rpm"     }, "name": "Air conditioning compressor speed"}
+  ]},
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4007"}, "freq": 5, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_AC_STATUS", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning status code"}
+  ]},
+{ "hdr": "744", "rax": "764", "cmd": {"22": "4008"}, "freq": 5, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "744", "rax": "764", "cmd": {"22": "F467"}, "freq": 5, "filter": { "from": 2022 }, "dbgfilter": { "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_ECT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
+  ]},
+{ "hdr": "758", "rax": "778", "fcm1": true, "cmd": {"21": "10"}, "freq": 15, "filter": { "from": 2022 }, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "FRONTIER_WHL_1_P", "path": "Tires", "fmt": {"bix": 16, "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Wheel 1 pressure"},
+    {"id": "FRONTIER_WHL_2_P", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Wheel 2 pressure"},
+    {"id": "FRONTIER_WHL_3_P", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Wheel 3 pressure"},
+    {"id": "FRONTIER_WHL_4_P", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Wheel 4 pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1124"}, "freq": 1,
+  "signals": [
+    {"id": "FRONTIER_F_RAT_ADJ_B2", "path": "Engine", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "Air/fuel ratio adjustment, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1137"}, "freq": 1,
+  "signals": [
+    {"id": "FRONTIER_CAM_ADV_ANG_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Camshaft advance angle, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1139"}, "freq": 1,
+  "signals": [
+    {"id": "FRONTIER_CAM_VLV_DUTY_B2", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Camshaft valve duty, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1205"}, "freq": 1,
+  "signals": [
+    {"id": "FRONTIER_MAF_V_B2", "path": "Engine", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow sensor voltage, bank 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "122B"}, "freq": 30, "dbgfilter": { "to": 2021, "from": 2027 },
+  "signals": [
+    {"id": "FRONTIER_CC_S", "path": "Cruise control", "fmt": { "len": 16, "max": 3686, "mul": 9, "div": 160, "nullmin": 0, "unit": "kilometersPerHour" }, "name": "Cruise control set speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1307"}, "freq": 1,
+  "signals": [
+    {"id": "FRONTIER_AC_COMP",        "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "scalar" }, "name": "Air conditioning compressor"},
+    {"id": "FRONTIER_IDLE_CTRL_MODE", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "scalar" }, "name": "Idle control mode"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1313"}, "freq": 1,
+  "signals": [
+    {"id": "FRONTIER_COOLING_FAN_LOW",  "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "scalar" }, "name": "Cooling fan low"},
+    {"id": "FRONTIER_COOLING_FAN_HIGH", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "scalar" }, "name": "Cooling fan high"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"21": "01"}, "freq": 5,
+  "signals": [
+    {"id": "FRONTIER_OUTPUT_SPD",   "path": "Movement",     "fmt": {"bix": 40,  "len": 16, "max": 65535,                                                              "unit": "rpm"        }, "name": "Output speed"},
+    {"id": "FRONTIER_TURBINE_SPD",  "path": "Movement",     "fmt": {"bix": 56,  "len": 16, "max": 65535,                                                              "unit": "rpm"        }, "name": "Turbine speed"},
+    {"id": "FRONTIER_TQ_CONV_SLIP", "path": "Transmission", "fmt": {"bix": 120, "len": 16, "max": 32767, "min": -32768,                                 "sign": true, "unit": "rpm"        }, "name": "Torque converter slip"},
+    {"id": "FRONTIER_ATF_T_VAR_1",  "path": "Transmission", "fmt": {"bix": 152, "len": 8,  "max": 392,   "min": -67,    "mul": 9, "div": 5, "add": -67,               "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 1"},
+    {"id": "FRONTIER_ATF_T_VAR_2",  "path": "Transmission", "fmt": {"bix": 160, "len": 8,  "max": 392,   "min": -67,    "mul": 9, "div": 5, "add": -67,               "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 2"}
+  ]}
 ]
 }

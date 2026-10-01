@@ -1,0 +1,8 @@
+command_id: 723.735.220110|f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_STEER_ANGLE: 26.2
+  response: '735056201100106'
+- expected_values:
+    FRONTIER_STEER_ANGLE: 26.3
+  response: '735056201100107'
