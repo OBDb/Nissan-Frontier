@@ -1,0 +1,11 @@
+command_id: 744.764.224007|f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_AC_STATUS: 11
+  response: 764076240070BFDFFFF
+- expected_values:
+    FRONTIER_AC_STATUS: 11
+  response: 764076240070BFFFFFF
+- expected_values:
+    FRONTIER_AC_STATUS: 251
+  response: 76407624007FBFDFFFF

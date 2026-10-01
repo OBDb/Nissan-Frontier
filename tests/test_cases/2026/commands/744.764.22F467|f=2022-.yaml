@@ -1,0 +1,8 @@
+command_id: 744.764.22F467|f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_ECT: 32
+  response: 7640462F46748
+- expected_values:
+    FRONTIER_ECT: 105
+  response: 7640462F46791

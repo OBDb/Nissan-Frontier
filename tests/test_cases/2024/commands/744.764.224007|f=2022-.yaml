@@ -1,0 +1,5 @@
+command_id: 744.764.224007|f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_AC_STATUS: 59
+  response: 764076240073BFDFFFF

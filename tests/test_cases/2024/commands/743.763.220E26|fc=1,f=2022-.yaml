@@ -1,0 +1,8 @@
+command_id: 743.763.220E26|fc=1,f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_TP_FL: 35
+  response: 76304620E268C
+- expected_values:
+    FRONTIER_TP_FL: 40.25
+  response: 76304620E26A1
