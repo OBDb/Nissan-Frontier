@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221124
+test_cases:
+- expected_values:
+    FRONTIER_F_RAT_ADJ_B2: -2
+  response: '7E80462112462'
+- expected_values:
+    FRONTIER_F_RAT_ADJ_B2: -1
+  response: '7E80462112463'
