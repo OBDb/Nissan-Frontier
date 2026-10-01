@@ -1,8 +1,8 @@
 command_id: 743.763.220E28|fc=1,f=2022-
 test_cases:
 - expected_values:
-    FRONTIER_TP_RL: 29.75
-  response: '76304620E2877'
+    FRONTIER_TP_RL: null
+  response: '76304620E2800'
 - expected_values:
     FRONTIER_TP_RL: 47.5
   response: 76304620E28BE

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22122B
+test_cases:
+- expected_values:
+    FRONTIER_CC_S: null
+  response: 7E80562122B0000
