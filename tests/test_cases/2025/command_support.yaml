@@ -36,6 +36,7 @@ supported_commands_by_ecu:
   "7DF":
   - 7DF.0104
   - 7DF.0105
+  - 7DF.010C
   - 7DF.010D
   - 7DF.0110
   - 7DF.0124
@@ -186,6 +187,7 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.221266
   "7E1":
   - 7E1.7E9.0104
+  - 7E1.7E9.010C
   - 7E1.7E9.010D
   - 7E1.7E9.0147
   - 7E1.7E9.2101|din=C0,dout=81:FRONTIER_ATF_T_VAR_1,FRONTIER_ATF_T_VAR_2,FRONTIER_OUTPUT_SPD,FRONTIER_TQ_CONV_SLIP,FRONTIER_TURBINE_SPD
