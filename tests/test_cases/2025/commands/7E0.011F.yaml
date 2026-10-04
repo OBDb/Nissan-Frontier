@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     RUNTM: 1793
   response: 7E804411F0701
+- expected_values:
+    RUNTM: 8109
+  response: 7E804411F1FAD
