@@ -1,0 +1,17 @@
+command_id: 740.760.221115|f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_APP: 0
+  response: '7600462111500'
+- expected_values:
+    FRONTIER_APP: 3
+  response: '7600462111506'
+- expected_values:
+    FRONTIER_APP: 11
+  response: '7600462111516'
+- expected_values:
+    FRONTIER_APP: 21.5
+  response: 760046211152B
+- expected_values:
+    FRONTIER_APP: 24.5
+  response: '7600462111531'
