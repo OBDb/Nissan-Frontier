@@ -1,0 +1,11 @@
+command_id: 740.760.221209|f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 0
+  response: '760056212090000'
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 18.22917
+  response: 76005621209001C
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 45.57292
+  response: '760056212090046'
