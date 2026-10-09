@@ -10,5 +10,5 @@ test_cases:
     FRONTIER_ODO: 15360
   response: '76306620E01000600'
 - expected_values:
-    FRONTIER_ODO: 35860
-  response: 76306620E01000E02
+    FRONTIER_ODO: 66140
+  response: 76306620E010019D6
