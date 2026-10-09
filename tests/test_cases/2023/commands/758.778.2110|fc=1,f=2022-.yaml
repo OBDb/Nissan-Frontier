@@ -1,0 +1,11 @@
+command_id: 758.778.2110|fc=1,f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_WHL_1_P: 30.75
+    FRONTIER_WHL_2_P: 32.75
+    FRONTIER_WHL_3_P: 34.5
+    FRONTIER_WHL_4_P: 31.5
+  response: |-
+    778100F611000007B83
+    778218A7EF8F5006E6E
+    778226E6EFFFFFFFFFF
