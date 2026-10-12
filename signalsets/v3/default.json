@@ -86,6 +86,10 @@
     {"id": "FRONTIER_WHL_3_P", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Wheel 3 pressure"},
     {"id": "FRONTIER_WHL_4_P", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Wheel 4 pressure"}
   ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "dbg": true, "cmd": {"22": "1155"}, "freq": 30,
+  "signals": [
+    {"id": "FRONTIER_RANGE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range shown on the display", "suggestedMetric": "fuelRange"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1124"}, "freq": 1, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "FRONTIER_F_RAT_ADJ_B2", "path": "Engine", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "Air/fuel ratio adjustment, bank 2"}
