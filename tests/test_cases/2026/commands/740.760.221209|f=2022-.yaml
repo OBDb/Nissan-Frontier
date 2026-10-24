@@ -1,0 +1,29 @@
+command_id: 740.760.221209|f=2022-
+test_cases:
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 0
+  response: '760056212090000'
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 33.85417
+  response: '760056212090034'
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 35.15625
+  response: '760056212090036'
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 39.71354
+  response: 76005621209003D
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 41.01562
+  response: 76005621209003F
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 42.96875
+  response: '760056212090042'
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 44.27083
+  response: '760056212090044'
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 45.57292
+  response: '760056212090046'
+- expected_values:
+    FRONTIER_BRAKE_MC_P: 80.72917
+  response: 76005621209007C
