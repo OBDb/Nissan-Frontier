@@ -4,8 +4,8 @@ test_cases:
     FRONTIER_TP_FR: null
   response: '76304620E2500'
 - expected_values:
-    FRONTIER_TP_FR: 27.5
-  response: 76304620E256E
+    FRONTIER_TP_FR: 27
+  response: 76304620E256C
 - expected_values:
     FRONTIER_TP_FR: 48.75
   response: 76304620E25C3
