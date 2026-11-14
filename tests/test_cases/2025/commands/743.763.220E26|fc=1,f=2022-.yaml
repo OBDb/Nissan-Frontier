@@ -7,5 +7,5 @@ test_cases:
     FRONTIER_TP_FL: 30
   response: '76304620E2678'
 - expected_values:
-    FRONTIER_TP_FL: 45.75
-  response: 76304620E26B7
+    FRONTIER_TP_FL: 46.5
+  response: 76304620E26BA
