@@ -7,5 +7,5 @@ test_cases:
     FRONTIER_TP_RR: 27.75
   response: 76304620E276F
 - expected_values:
-    FRONTIER_TP_RR: 44.5
-  response: 76304620E27B2
+    FRONTIER_TP_RR: 44.75
+  response: 76304620E27B3
